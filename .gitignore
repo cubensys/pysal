@@ -1,104 +1,108 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
-*$py.class
-
+*.bak
+.ipynb_checkpoints/
 # C extensions
 *.so
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
+# Packages
 *.egg
-MANIFEST
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+
+# virtual environment
+venv/
 
 # Installer logs
 pip-log.txt
-pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
 .coverage
-.coverage.*
-.cache
+.tox
 nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
 
 # Translations
 *.mo
-*.pot
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
 
-# Flask stuff:
-instance/
-.webassets-cache
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
 
-# Scrapy stuff:
-.scrapy
 
-# Sphinx documentation
-docs/_build/
+# pysal
+#
+lattice.*
+.vagrant/
+pysal/contrib/viz/.ipynb_checkpoints/
+pysal/contrib/viz/bp.png
+pysal/contrib/viz/fj.png
+pysal/contrib/viz/fj_classless.png
+pysal/contrib/viz/lmet.tex
+pysal/contrib/viz/lmp.tex
+pysal/contrib/viz/lmplot.png
+pysal/contrib/viz/lmss.tex
+pysal/contrib/viz/lmt.tex
+pysal/contrib/viz/out.png
+pysal/contrib/viz/p.tex
+pysal/contrib/viz/quantiles.png
+pysal/contrib/viz/quantiles_HR60.png
+pysal/contrib/viz/quantiles_HR70.png
+pysal/contrib/viz/quantiles_HR80.png
+pysal/contrib/viz/quantiles_HR90.png
+pysal/contrib/viz/quatiles.png
+pysal/contrib/viz/region.ipynb
+pysal/contrib/viz/south_base.html
+pysal/contrib/viz/sp.tex
+pysal/contrib/viz/sss.tex
+pysal/examples/south.prj
 
-# PyBuilder
-target/
+#Vi
+*.swp
+.ropeproject/
+.eggs/
+pysal/contrib/planar/
+pysal/esda/.ropeproject/
+pysal/esda/jenks_nb.ipynb
+pysal/examples/snow_maps/fake.dbf
+pysal/examples/snow_maps/fake.prj
+pysal/examples/snow_maps/fake.qpj
+pysal/examples/snow_maps/fake.shp
+pysal/examples/snow_maps/fake.shx
+pysal/examples/snow_maps/fixed.dbf
+pysal/examples/snow_maps/fixed.prj
+pysal/examples/snow_maps/fixed.qgs
+pysal/examples/snow_maps/fixed.qgs~
+pysal/examples/snow_maps/fixed.qpj
+pysal/examples/snow_maps/fixed.shp
+pysal/examples/snow_maps/fixed.shx
+pysal/examples/snow_maps/snow.qgs
+pysal/examples/snow_maps/snow.qgs~
+pysal/examples/snow_maps/soho_graph.dbf
+pysal/examples/snow_maps/soho_graph.prj
+pysal/examples/snow_maps/soho_graph.qpj
+pysal/examples/snow_maps/soho_graph.shp
+pysal/examples/snow_maps/soho_graph.shx
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
